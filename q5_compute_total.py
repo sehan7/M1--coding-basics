@@ -1,8 +1,8 @@
 """ Question 5: Fix the Runtime Errors """
 def compute_total(total, tax):
     final = total + total*tax
-    print("Your total is " + final + " dollars.")
-    return FINAL
+    print("Your total is " + str(final) + " dollars.")
+    return final
 
 """ Test 5 """
 def test_compute_total():
