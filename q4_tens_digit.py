@@ -2,9 +2,9 @@
 """
 Uncomment the following function and fix the syntax errors so it passes
 """
-# def tens_digit(n):
-#    n // 10 = n
-# return n % 10
+ def tens_digit(n):
+     n // 10 = n
+     return n % 10
 
 """ Test 4 """
 def test_tens_digit():
