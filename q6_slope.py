@@ -1,7 +1,7 @@
 """ Question 6: Fix the Logical Errors """
 def slope(x1, y1, x2, y2):
-    result = y2 - y1 / x2 - x1
-    return slope
+    result = (y2 - y1) / x2 - x1)
+    return result
 
 """ Test 6 """
 def test_slope():
