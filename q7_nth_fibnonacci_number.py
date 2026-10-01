@@ -4,7 +4,9 @@ Input: integer n
 Output: nth fibonacci number
 """
 def nth_fibonacci_number(n):
-    return
+    phi = (1 + 5**0.5) / 2
+    conj = 1 - phi
+    return round((phi**n - conj**n) / (5**0.5))
 
 """ Test 7 """
 def test_nth_fibonacci_number():
