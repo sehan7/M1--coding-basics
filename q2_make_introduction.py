@@ -4,7 +4,7 @@ Inputs: two strings representing a name and a hobby
 Output: a string of the form "My name is {name} and I like {hobby}"
 """
 def make_introduction(name, hobby):
-    return 
+    return "My name is " + name + " and I like " + hobby
 
 """ Test 2 """
 def test_make_introduction():
