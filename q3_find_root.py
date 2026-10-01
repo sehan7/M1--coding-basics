@@ -5,8 +5,8 @@ Output: the positive quadratic root of the equation ax^2 + bx + c = 0
         (using the quadratic formula)
 """
 def find_root(a, b, c):
-    
-    return 
+    square_root = (b**2 - 4*a*c)**0.5
+    return (-b + square_root) / (2*a)
 
 """ Test 3 """
 def test_find_root():
