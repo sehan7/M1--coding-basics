@@ -4,8 +4,7 @@ Inputs: three integers representing the height, width, and length of a box
 Output: the volume of the box
 """
 def box_volume(h, w, l):
-    
-    return  
+    return h*w*l
 
 """ Test 1 """
 def test_box_volume():
